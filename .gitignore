@@ -1,0 +1,55 @@
+data
+docs
+
+```
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.egg
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ----------------------------
+# Project Data
+# ----------------------------
+data/raw_pdfs/           # raw PDFs (sensitive & large, do not commit)
+data/raw_meta/           # extracted raw jsons
+data/processed/          # intermediate chunks, metadata
+data/index/              # FAISS index + documents.npy
+
+# Allow empty dirs (if you want)
+!data/raw_pdfs/.gitkeep
+!data/raw_meta/.gitkeep
+!data/processed/.gitkeep
+!data/index/.gitkeep
+
+# ----------------------------
+# Logs / Cache
+# ----------------------------
+*.log
+*.tmp
+*.cache
+.cache/
+logs/
+
+# ----------------------------
+# OS / IDE files
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+```

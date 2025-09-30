@@ -1,0 +1,13 @@
+numpy
+pandas
+faiss-cpu
+sentence-transformers
+torch
+transformers
+pdfplumber
+pytesseract
+pdf2image
+spacy
+python-dotenv
+tqdm
+streamlit
