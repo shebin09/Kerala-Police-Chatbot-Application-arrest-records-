@@ -30,29 +30,31 @@ pip install -r requirements.txt
 1. Add PDFs
 Place your arrest record PDFs inside:
 
-
+```bash
 data/raw_pdfs/
+```
 2. Ingest PDFs
 Run extraction, redaction, and chunking:
 
 
-
+```python
 python -m scripts.ingest_pdfs
+```
 3. Build Index
 Generate embeddings and FAISS index:
 
 
-```bash
+```python
 python -m scripts.build_index
 ```
 4. Run App
 Launch Streamlit search assistant:
 
 
-```bash
+```python
 streamlit run src/app_streamlit.py
 ```
-#### Features
+## Features
 * Semantic Search → query by natural language.
 
 * OCR Support → handles scanned PDFs.
@@ -63,7 +65,7 @@ streamlit run src/app_streamlit.py
 
 * Interactive UI → user-friendly query interface.
 
-#### Progress
+## Progress
 * Dataset obtained (5000+ arrest record PDFs)
 
 * Preprocessing + PII Redaction
@@ -76,7 +78,7 @@ streamlit run src/app_streamlit.py
 
 * LLM Summarization (future work → RAG pipeline)
 
-#### Tech Stack
+## Tech Stack
 * Python 3.10+
 
 * pdfplumber, pytesseract (OCR)
@@ -89,7 +91,7 @@ streamlit run src/app_streamlit.py
 
 * Streamlit (UI)
 
-#### Future Enhancements
+## Future Enhancements
 * Integrate LLM summarization for full RAG pipeline.
 
 * Add multilingual support (Malayalam) via Bhashini API.
