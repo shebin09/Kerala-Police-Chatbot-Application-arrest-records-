@@ -52,48 +52,48 @@ Launch Streamlit search assistant:
 ```bash
 streamlit run src/app_streamlit.py
 ```
-✅ Features
-🔎 Semantic Search → query by natural language.
+#### Features
+* Semantic Search → query by natural language.
 
-📖 OCR Support → handles scanned PDFs.
+* OCR Support → handles scanned PDFs.
 
-🔒 PII Redaction → anonymizes sensitive info.
+* PII Redaction → anonymizes sensitive info.
 
-⚡ FAISS Indexing → fast vector retrieval.
+* FAISS Indexing → fast vector retrieval.
 
-🖥️ Interactive UI → user-friendly query interface.
+* Interactive UI → user-friendly query interface.
 
-📌 Progress
- Dataset obtained (5000+ arrest record PDFs)
+#### Progress
+* Dataset obtained (5000+ arrest record PDFs)
 
- Preprocessing + PII Redaction
+* Preprocessing + PII Redaction
 
- Exploratory Data Analysis (EDA)
+* Exploratory Data Analysis (EDA)
 
- Embeddings + FAISS Indexing
+* Embeddings + FAISS Indexing
 
- Streamlit UI (in progress)
+* Streamlit UI 
 
- LLM Summarization (future work → RAG pipeline)
+* LLM Summarization (future work → RAG pipeline)
 
-🛠️ Tech Stack
-Python 3.10+
+#### Tech Stack
+* Python 3.10+
 
-pdfplumber, pytesseract (OCR)
+* pdfplumber, pytesseract (OCR)
 
-spaCy (NER for PII redaction)
+* spaCy (NER for PII redaction)
 
-SentenceTransformers (all-MiniLM-L6-v2)
+* SentenceTransformers (all-MiniLM-L6-v2)
 
-FAISS (vector search)
+* FAISS (vector search)
 
-Streamlit (UI)
+* Streamlit (UI)
 
-🚀 Future Enhancements
-Integrate LLM summarization for full RAG pipeline.
+#### Future Enhancements
+* Integrate LLM summarization for full RAG pipeline.
 
-Add multilingual support (Malayalam) via Bhashini API.
+* Add multilingual support (Malayalam) via Bhashini API.
 
-Extend metadata extraction for IPC Sections, Police Stations, Districts.
+* Extend metadata extraction for IPC Sections, Police Stations, Districts.
 
-Deploy as a secure web service for Kerala Police officials.
+* Deploy as a secure web service for Kerala Police officials.
