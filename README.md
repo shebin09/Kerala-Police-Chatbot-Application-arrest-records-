@@ -53,6 +53,7 @@ Launch Streamlit search assistant:
 ```python
 streamlit run src/app_streamlit.py
 ```
+---
 ## Features
 * Semantic Search → query by natural language.
 
@@ -63,7 +64,7 @@ streamlit run src/app_streamlit.py
 * FAISS Indexing → fast vector retrieval.
 
 * Interactive UI → user-friendly query interface.
-
+---
 ## Progress
 * Dataset obtained (5000+ arrest record PDFs)
 
@@ -76,7 +77,7 @@ streamlit run src/app_streamlit.py
 * Streamlit UI 
 
 * LLM Summarization (future work → RAG pipeline)
-
+---
 ## Tech Stack
 * Python 3.10+
 
@@ -89,7 +90,7 @@ streamlit run src/app_streamlit.py
 * FAISS (vector search)
 
 * Streamlit (UI)
-
+---
 ## Future Enhancements
 * Integrate LLM summarization for full RAG pipeline.
 
