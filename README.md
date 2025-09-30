@@ -1,6 +1,6 @@
-# 🚔 Kerala Police Arrest Records AI Assistant
+#  Kerala Police Arrest Records AI Assistant
 
-## 📌 Project Overview
+##  Project Overview
 The Kerala Police maintains thousands of arrest records in **unstructured PDF documents**.  
 Searching these records manually is slow, error-prone, and sensitive due to **personally identifiable information (PII)**.  
 
