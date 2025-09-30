@@ -15,7 +15,6 @@ This project builds an **AI-powered semantic search assistant** that:
 
 ---
 
----
 
 ## ⚙️ Installation
 Clone repo and install dependencies:
